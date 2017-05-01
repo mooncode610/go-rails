@@ -1,0 +1,25 @@
+*.gem
+*.rbc
+/.config
+/spec/reports/
+/test/tmp/
+/test/version_tmp/
+/tmp/
+/log/
+/go_app/
+
+## Specific to RubyMotion:
+.dat*
+.repl_history
+build/
+
+## Environment normalisation:
+/.bundle/
+/vendor/bundle
+/lib/bundler/man/
+
+# unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
+.rvmrc
+
+# Ignore the db schema
+db/schema.rb
