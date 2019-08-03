@@ -1,17 +1,13 @@
 <p align="center">
   <img width="260" height="260" src="./go-on-rails.png">
 </p>
-<h3 align="center"><a href="https://railstack.github.io">Go on Rails</a></h3>
-<p align="center">Use Rails to generate Golang code or manage Go app development<p>
 
-<p align="center">
-  <a href="https://badge.fury.io/rb/go-on-rails"><img src="https://badge.fury.io/rb/go-on-rails.svg" alt="Gem Version"></a>
-  <a href="https://travis-ci.org/railstack/go-on-rails"><img src="https://travis-ci.org/railstack/go-on-rails.svg?branch=dev" alt="Build Status"></a>
-  <a href="https://codeclimate.com/github/railstack/go-on-rails/maintainability"><img src="https://api.codeclimate.com/v1/badges/6fba1f226f027a14c19b/maintainability" alt="Maintainability"></a>
-  <a href="https://github.com/railstack/go-on-rails/blob/master/MIT-LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License"></a>
-</p>
+[![Gem Version](https://badge.fury.io/rb/go-on-rails.svg)](https://badge.fury.io/rb/go-on-rails)
+[![Build Status](https://travis-ci.org/railstack/go-on-rails.svg?branch=dev)](https://travis-ci.org/railstack/go-on-rails)
+[![Maintainability](https://api.codeclimate.com/v1/badges/6fba1f226f027a14c19b/maintainability)](https://codeclimate.com/github/railstack/go-on-rails/maintainability)
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/railstack/go-on-rails/blob/master/MIT-LICENSE)
 
----
+# Go on Rails
 
 `go-on-rails` 是一个 Rails 的 generator，其目标功能主要有：
 
@@ -26,14 +22,14 @@
 ## 安装环境要求
 
 * Rails 4.2 及以上
-* Go 1.7 及以上
+* Go 1.9 及以上(主要是为了兼容 github.com/go-sql-driver/mysql，如果你不用该驱动，可以考虑更低版本)
 
 ## 安装
 
 在 Rails 项目的 Gemfile 中添加下面一行:
 
 ```ruby
-gem 'go-on-rails', '~> 0.3.1'
+gem 'go-on-rails', '~> 0.4.0'
 ```
 
 然后运行:
